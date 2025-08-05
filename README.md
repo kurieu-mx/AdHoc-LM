@@ -24,6 +24,13 @@ This repo will be updated as I progress through each phase:
 - ✅ Tokenizer + embeddings implemented  
 - 🚧 Working on: Multi‑head attention module  
 
+---
+
+## 📊 Dataset (Phase 1)
+- **Shakespeare text** (tiny, great for debugging)  
+- **TinyStories dataset** (lightweight natural language corpus)  
+- Later: WikiText‑103 & OpenWebText for scaling  
+
 **Next Steps:**  
 - Implement feedforward layers & normalization  
 - Add causal masking for autoregressive training  
@@ -32,4 +39,25 @@ This repo will be updated as I progress through each phase:
 
 ---
 
-## 📂 Project Structure (so far)
+## 🏗️ Architecture (WIP)
+Currently implementing a **decoder‑only transformer** (GPT‑style):  
+- ✅ Token + positional embeddings  
+- 🚧 Multi‑head self‑attention  
+- ⏳ Feedforward layers + normalization  
+- ⏳ Causal masking  
+
+---
+
+## 🧩 Roadmap
+- [x] Initialize repo + environment  
+- [x] Implement tokenizer + embeddings  
+- [ ] Multi‑head attention  
+- [ ] Training loop for Mini‑AdHoc‑LM  
+- [ ] Pretrain Mini‑AdHoc‑LM on Shakespeare  
+- [ ] Publish initial training curves  
+
+---
+
+## 🙌 Acknowledgements
+- Sebastian Raschka — *“Build a Large Language Model (From Scratch)”*  
+- Hugging Face community datasets  
