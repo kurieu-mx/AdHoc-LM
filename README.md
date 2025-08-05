@@ -1,4 +1,5 @@
-# 📝 AdHoc‑LM
+# 📝 AdHoc‑GPT
+
 *A transformer‑based language model built from scratch, specialized for diplomacy, resolutions, and debate (work in progress).*
 
 ---
